@@ -1,0 +1,36 @@
+.cover {
+  background-image: url("../img/dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 100px;
+  color: white;
+  height: 100vh;
+}
+
+.cover button {
+  margin-top: 50px;
+}
+
+body {
+  margin-top: 50px;
+}
+
+h2 {
+  color: #333;
+  padding: 50px;
+}
+
+.details {
+  padding: 50px;
+}
+
+.skills-container {
+  background-color: #333;
+}
+
+.skills-header,
+.skills-p {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
