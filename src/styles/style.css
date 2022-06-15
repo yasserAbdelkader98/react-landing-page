@@ -1,36 +1,33 @@
-.cover {
-  background-image: url("../img/dark.jpg");
+::placeholder {
+  color: white;
+}
+
+.askSectionBubbles {
+  background-image: url("../images/boyBubbles.png");
+  background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 150px 100px;
-  color: white;
-  height: 100vh;
 }
 
-.cover button {
-  margin-top: 50px;
+.topRightBalls {
+  background-image: url("../images/topRightBalls.png");
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
-body {
-  margin-top: 50px;
+.leftDownBalls {
+  background-image: url("../images/leftDownBalls.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
 
-h2 {
-  color: #333;
-  padding: 50px;
+@media screen and (max-width: 1050px) {
+  .big-background {
+    min-height: 900px;
+  }
 }
 
-.details {
-  padding: 50px;
-}
-
-.skills-container {
-  background-color: #333;
-}
-
-.skills-header,
-.skills-p {
-  text-align: center;
-  padding-top: 50px;
-  color: white;
+@media screen and (min-width: 1050px) {
+  .small-background {
+    height: 850px;
+  }
 }
